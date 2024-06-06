@@ -1,0 +1,60 @@
+.titulo{
+    color: rgb(117, 23, 23);
+    font-size: 100px;
+    font-family: cursive;
+}
+th{
+    background-color: pink;
+    color: rgb(76, 14, 14);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.subtitulo{
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+ul{
+    list-style: disc;
+}
+
+td{
+    background-color: rgb(123, 211, 211);
+    font-family: 'Times New Roman', Times, serif;
+}
+th,td
+{
+    border: 1px;
+    padding: 8px;
+}
+
+#especial{
+    font-size: 30;
+    color: rgb(188, 30, 112);
+    padding: 8px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.imagen{
+    border-color: rgb(247, 249, 249);
+    border-style: double;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.list{
+    flex: 1;
+    margin-right: 100;
+}
