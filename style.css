@@ -58,3 +58,7 @@ body{
     flex: 1;
     margin-right: 100;
 }
+
+.mg{
+    border-radius: 20px;
+}
