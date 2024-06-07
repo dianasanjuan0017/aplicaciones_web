@@ -14,14 +14,14 @@
    
 }
 .titulo{
-    font-size: 50px;
+    font-size: 5em;
     margin-bottom: 20px;
 
     text-align: center;
     font-family: cursive;
 }
 .subtitulo{
-    font-size: 20px;
+    font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -46,3 +46,4 @@ body{
     display: flex;
     justify-content: center;
 }
+
