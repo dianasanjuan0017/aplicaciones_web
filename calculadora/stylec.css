@@ -44,23 +44,20 @@ body{
     justify-content: center;
 }
 
-.botonera{
-    display: flex;
-    width: 95%;
-    padding: 5em;
-    flex-direction: column;
-}
+
 
 @media(width<=600px){
     .botones{
         flex-direction: column;
-        padding:2px ;
+
     }  
     .titulo{
         font-size: 3em;
+        font-family: 'Times New Roman', Times, serif;
     }  
     .subtitulo{
         font-size: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .boton{
