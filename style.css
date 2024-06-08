@@ -1,6 +1,6 @@
 .titulo{
     color: rgb(117, 23, 23);
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 1em;
     text-align: center;
     font-family: cursive;
@@ -47,7 +47,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: beige;
+    background-color: rgb(168, 247, 214);
     font-size: 1em;
     font-family: cursive;
 
@@ -73,12 +73,21 @@ body{
     font-size: 1em;
 }
 
+.ejercicios{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.nombre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(53, 39, 146);
+}
 @media(width<=785px){
     .cargahoraria{
         font-size: .6em;
     }  
     .titulo{
-        font-size: 3em;
+        font-size: 2em;
         font-family: 'Times New Roman', Times, serif;
     }  
     .subtitulo{
