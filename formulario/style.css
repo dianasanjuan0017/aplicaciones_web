@@ -24,10 +24,11 @@ button[type="submit"] {
 }
 
 .titulo{
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 20px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(239, 210, 215);
 }
 
 .container{
