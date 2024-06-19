@@ -8,17 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="titulo">validaciones</h1>
-        <h2 class="subtitulo">Formulario de registro</h2>
+        <h1 class="titulo">Formulario de registro</h1>
+        
 
-            <label for="username">Nombre de Usuario (5-15 caracteres alfanuméricos):</label>
-            <input type="text" id="username" name="username" pattern="^[a-zA-Z0-9]{5,15}$"
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username" placeholder="nombre usuario" pattern="^[a-zA-Z0-9]{5,15}$"
              title="Debe tener entre 5 y 15 caracteres alfanuméricos" required>
             <br>
             <br>
 
-            <label for="app">contraseña(debe tener al menos 8 caracteres)</label>
-            <input type="text" name="password" id="pasww"
+            <label for="app">contraseña:</label>
+            <input type="text" name="password" id="pasww" placeholder="password"
              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$"
              title="debe tener al menos 8 caracteres, incluyendo al menos una letra
             mayuscula,una minuscula, un numero y un caracter especial (!,@,#,etc.)" required>
@@ -26,39 +26,40 @@
             <br>
             <br>
 
-            <label for="ce">correo electronico</label>
-            <input type="email" name="correo" id="correoe" pattern="^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$"
+            <label for="ce">correo electronico:</label>
+            <input type="email" name="correo" id="correoe" placeholder="correo electronico"
+             pattern="^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$"
             class="input" title="debe ser una direccion de correo electronico valida" required>
 
             <br>
             <br>
 
-            <label for="nt">Número de telefono</label>
-            <input type="tel" class="input" id="" pattern="^\+?[0-9]{10,15}$"
+            <label for="nt">Número de telefono:</label>
+            <input type="tel" class="input" name="telefono" id="telefono"  placeholder="numero de telefono"
+            pattern="^\+[0-9]{1,15}$"
             title="debe seguir el formato internacional,comenzando con el signo + y hasta 15 digitos" required >
 
             <br>
             <br>
 
-            <label for="fcn">fecha de nacimiento</label>
-            <input type="date" class="input" id="" pattern="^(?:(?:[0-9]{4})-((?:0[1-9])|(1[0-2]))-((?:[0-9]{1,2})))$"
-            title="introduce tu fecha de nacimiento en el siguiente orden: día,mes,año"
-            required >
-
-            <br>
-            <br>
-
-            <label for="cd">Código postal</label>
-            <input type="password" name="pass" id="pass" class="input"
-            pattern="[0-9]{5}$"
-            title="debe consistir en exactamente 5 digitos"
-            required >
-
-            <br>
-            <br>
+            <label for="birthdate">Fecha de Nacimiento:</label>
+            <input type="date" id="birthdate" name="birthdate" placeholder="YYYY-MM-DD." pattern="\d{4}-\d{2}-\d{2}" 
+             title="Debe estar en el formato YYYY-MM-DD." required>
     
 
-            <button type="submit" class="button">Enviar</button>
+            <br>
+            <br>
+
+        <label for="zipcode">Código Postal:</label>
+        <input type="text" id="codigopos" placeholder="código postal" pattern="^\d{5}$"
+         name="codigopos" title=" Debe consistir en exactamente 5 dígitos." required>
+        <br><br>
+
+    
+
+        <br>
+        <button type="submit" class="button">Registrarse</button>
+
         </form>
 
     </div>
